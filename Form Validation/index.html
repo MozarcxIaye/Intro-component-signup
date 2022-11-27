@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <script src="main.js" defer></script> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <main>
+      <!-- Text Part  -->
+      <div class="textContainer">
+        <h1>Learn to code by watching others</h1>
+        
+        <p class="txt">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+      
+      <section>
+        <button class="btn-tryItFree">
+          <strong>Try it free 7 days</strong> then $20/mo. thereafter
+        </button>
+        <!-- Form Part  -->
+        <div class="formContainer">
+          <form action="#" method="GET" id="form">
+            <input id='firstName'type="text" placeholder="First Name" />
+            <p id="error1" ></p>
+            <!-- <div id="error"></div> -->
+            <input id="lastName" type="text" placeholder="Last Name" />
+            <p id="error2" ></p>
+            <input id="email" type="email" placeholder="Email Address" />
+            <p id="error3" ></p>
+            <input id="password" type="password" placeholder="Password" />
+            <p id="error4" ></p>
+            
+            <button id="button" type="submit">CLAIM YOUR FREE TRIAL</button>
+          </form>
+          
+          <footer>
+            By clicking the buttoon, you are agreeing to our
+            <strong> <a href="#">Terms and Services</a></strong>
+          </footer>
+        </div>
+      </section>
+    </main>
+    
+    
+    
+    <script src="main.js"></script>
+  </body>
+</html>
