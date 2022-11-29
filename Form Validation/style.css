@@ -139,7 +139,14 @@ Desktop : 1440px; */
         font-family: var(--ff-primary);
         font-size: .35rem;
         text-align: right;
+        font-style: italic;
+        font-weight: 600;
        
+       
+    }
+    .placeholderClr::placeholder{
+        color: var(--clr-primary);
+        /* content: "<i class='bx bxs-error-circle' style='color:#f95454'  ></i>"; */
     }
 }
  /* 376 .. 1106 */
@@ -251,6 +258,9 @@ Desktop : 1440px; */
         font-family: var(--ff-primary);
         font-size: .6rem;
         text-align: right;
+        font-style: italic;
+        font-weight: 600;
+       
        
     }
     .placeholderClr::placeholder{
@@ -369,9 +379,17 @@ Desktop : 1440px; */
         color: var(--clr-primary);
         font-family: var(--ff-primary);
         font-size: .67rem;
-        text-align: right;
+        text-align: right; 
+        font-style: italic;
+        font-weight: 600;
        
     }
+    .placeholderClr::placeholder{
+        color: var(--clr-primary);
+        /* content: "<i class='bx bxs-error-circle' style='color:#f95454'  ></i>"; */
+    }
+
+   
 }
 
 

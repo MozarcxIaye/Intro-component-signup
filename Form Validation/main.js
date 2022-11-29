@@ -10,13 +10,15 @@ const errorElement4 = document.getElementById('error4');
 console.log('hello');
 button.addEventListener('click', function() {
     if (firstname.value === '' || firstname.value == null) {
-        errorElement1.textContent = "First Name cannot be empty.";
+        errorElement1.textContent = "First Name cannot be empty";
         document.getElementById('firstName').style.border = '2px solid hsl(0, 100%, 74%)';
+        // firstname.placeholder= "❗";
+        // firstname.classList.add('error');
         
         // document.body.appendChild(errorElement1);
     }
     if (lastname.value === '' || lastname.value == null) {
-        errorElement2.textContent = 'Last Name cannot be empty.';
+        errorElement2.textContent = 'Last Name cannot be empty';
         document.getElementById('lastName').style.border = '2px solid hsl(0, 100%, 74%)';
     }
     if (password.value === '' || password.value == null) {
